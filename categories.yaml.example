@@ -1,0 +1,168 @@
+# dok-namer categories — Swiss German example.
+# Copy this file to categories.yaml and customise it, or point to it with --config.
+# If categories.yaml is absent, built-in English defaults are used automatically.
+#
+# Format: each entry needs a 'key' (= subfolder name under done/)
+# and 'keywords' (matched case-insensitively against the final suggested filename).
+# The last entry is the catch-all fallback for unmatched files.
+- key: "01_Steuern-Behoerden"
+  keywords:
+    - steuer
+    - finanzdirektion
+    - steuerverwaltung
+    - ahv-ausgleichskasse
+    - gemeindesteuer
+    - kantonssteuer
+    - gemeinde
+    - polizei
+    - gericht
+
+- key: "02_Banken-Vorsorge"
+  keywords:
+    - bank
+    - ubs
+    - zkb
+    - kantonalbank
+    - postfinance
+    - raiffeisen
+    - kontoauszug
+    - kontoabschluss
+    - zins
+    - saldo
+    - vorsorge
+    - pensionskasse
+    - freizuegigkeit
+    - saeule
+    - 3a
+    - kreditkarte
+    - swisscard
+
+- key: "03_Gesundheit-Krankenkasse"
+  keywords:
+    - helsana
+    - sanitas
+    - kpt
+    - css
+    - visana
+    - praemienverbilligung
+    - arzt
+    - medizin
+    - psych
+    - labor
+    - rezept
+    - leistungsabrechnung
+    - krankenkasse
+    - behandlung
+    - spitex
+
+- key: "04_Versicherungen"
+  keywords:
+    - versicherung
+    - versicherungen
+    - mobiliar
+    - axa
+    - smile
+    - zurich
+    - police
+    - praemienrechnung
+    - hausrat
+    - haftpflicht
+    - schutzbrief
+    - tcs-eti
+
+- key: "05_Wohnen-Haushalt-Energie"
+  keywords:
+    - miet
+    - nebenkosten
+    - heiz
+    - betriebskosten
+    - wohneigentum
+    - liegenschaft
+    - grundstueck
+    - eigenmietwert
+    - ekz
+    - ewz
+    - strom
+    - energie
+    - telefonrechnung
+    - mobile
+    - sunrise
+    - yallo
+    - swisscom
+    - reinigung
+    - kehricht
+    - wasser
+
+- key: "06_Arbeit-Einkommen-Firma"
+  keywords:
+    - arbeitsvertrag
+    - lohnausweis
+    - lohnabrechnung
+    - arbeitslosen
+    - arbeitszeugnis
+    - austritt
+    - kuendigung
+    - employment
+    - vertrag
+    - contract
+
+- key: "07_Kinder-Bildung"
+  keywords:
+    - schulamt
+    - schulbetreuung
+    - betreuung
+    - kita
+    - schulgeld
+    - coursera
+    - university
+    - berufsschule
+    - zeugnis
+    - bildung
+
+- key: "08_Auto-Mobilitaet"
+  keywords:
+    - garage
+    - fahrzeug
+    - motorfahrzeug
+    - verkehr
+    - radwechsel
+    - winterraed
+    - auto
+    - strassenverkehr
+    - mobility
+    - publibike
+    - velo
+    - tcs
+    - verkehrsabgabe
+
+- key: "09_Einkaeufe-Mitgliedschaften"
+  keywords:
+    - rechnung
+    - quittung
+    - lieferschein
+    - galaxus
+    - digitec
+    - shop
+    - dhl
+    - mahnung
+    - kostenvoranschlag
+    - mitglied
+    - alumni
+    - donation
+    - fitness
+    - abo
+
+- key: "10_Persoenliches-Recht"
+  keywords:
+    - zivilstand
+    - standesamt
+    - geburts
+    - eheschein
+    - scheidung
+    - familien
+    - testament
+    - vollmacht
+    - birth-certificate
+
+- key: "99_Sonstiges"
+  keywords: []

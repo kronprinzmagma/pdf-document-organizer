@@ -1,0 +1,7 @@
+# Blocklist für dok-namer — Namen und Begriffe, die zusätzlich geschwärzt werden sollen.
+# Eine Zeile pro Eintrag. Leere Zeilen und Zeilen mit # werden ignoriert.
+# Kopiere diese Datei nach redact-names.txt und passe sie an.
+# Die Ersetzung erfolgt case-insensitiv durch [NAME].
+
+Max Mustermann
+Muster GmbH & Co. KG
