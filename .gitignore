@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.local
+ANTHROPIC_API_KEY
+
+# Persönliche Blocklist (nie committen)
+redact-names.txt
+
+# Lauf-Artefakte
+dok-namer-report.md
+dok-namer-log.jsonl
+inbox/
+test-scans/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# OS
+.DS_Store
+.idea/
+.vscode/
