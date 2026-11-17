@@ -8,14 +8,9 @@ Renames scanned PDFs with AI. Personal data is redacted in memory before any clo
 
 > **About this repository:** Public, sanitised version of a private working repo that the author uses on real personal correspondence (tax, banking, insurance). The code is the same apart from anonymised strings; this repo ships with a synthetic test set instead of real PDFs. Synced automatically after every push to the private repo.
 
-<!-- HERO-VISUAL — bitte hier ein Bild einfügen (stärkster visueller Hebel):
-     Animiertes GIF eines echten interaktiven Laufs mit SYNTHETISCHEN Daten
-     (Redactions-Zeile, Tokens/Cost, Confidence, Suggested filename, Accept y/n).
-     1. GIF ablegen unter  docs/demo-run.gif  (Pfad zur Sync-Whitelist in
-        scripts/sync_to_public.py hinzufügen).
-     2. Folgende Zeile einkommentieren:
-![dok-namer im interaktiven Lauf](docs/demo-run.gif)
--->
+![dok-namer CLI demo: redactions, illustrative cost, confidence, filename confirmation and destination folder](docs/demo-run.png)
+
+*CLI demo using a synthetic PDF and a mocked model response. PDF parsing, redaction, confirmation and moving are real; tokens and time are fixtures. [Visual provenance](docs/hero-visual.md).*
 
 ---
 
