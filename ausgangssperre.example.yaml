@@ -1,0 +1,27 @@
+# Vorlage fuer die lokale Verbotsliste der Ausgangssperre.
+#
+# Kopieren nach ausgangssperre.local.yaml (neben dok_namer.py, gitignored) und
+# mit den eigenen Werten fuellen. Jeder Claude-Aufruf wird direkt vor dem Senden
+# darauf geprueft; ein Treffer bricht den Aufruf ab, die Datei bleibt unbenannt
+# und landet in error/. Die Meldung nennt nur die «art», nie den Wert.
+#
+# Gleiches Format wie in cv-tailor (data/ausgangssperre.local.yaml): dieselbe
+# Liste kann in beide Repos kopiert werden.
+#
+# Fest eingebaut (keine Eintraege noetig): AHV-Nummern, IBAN, Kreditkarten,
+# Geburtsdaten, API-Keys. Die Schwaerzung entfernt diese vorher; ein Fund der
+# Sperre heisst, dass die Schwaerzung versagt hat. Hier gehoert hin, was nur
+# fuer dich geschuetzt ist, z. B. Privatadresse oder Telefonnummer.
+#
+# Abgleich: Gross-/Kleinschreibung und Leerzeichen egal; bei Nummern zaehlen
+# nur die Ziffern (+41 44 555 01 23 trifft auch +41-44-555-01-23).
+# Varianten (z. B. 044 … und +41 44 …) einzeln eintragen. Mindestens 4 Zeichen.
+# Andere Datei: Umgebungsvariable DOK_NAMER_AUSGANGSSPERRE_LISTE.
+
+verboten:
+  - { wert: "Musterweg 7", art: Privatadresse }
+  - { wert: "+41 44 555 01 23", art: Telefon privat }
+  - { wert: "044 555 01 23", art: Telefon privat }
+
+# Bekannte Fehlalarme: exakt der gefundene Text. Sparsam verwenden.
+erlaubt: []
